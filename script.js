@@ -1,3 +1,8 @@
+function startApp() {
+  document.getElementById("welcome-screen").classList.remove("active");
+  document.getElementById("tracker-screen").classList.add("active");
+}
+
 const form = document.getElementById('expense-form');
 const expenseList = document.getElementById('expense-list');
 const totalDisplay = document.getElementById('total');
