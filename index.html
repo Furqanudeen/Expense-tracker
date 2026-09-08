@@ -1,107 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Expense Tracker</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <body>
-  <!-- Header -->
-  <header> ... </header>
-
-  <!-- Hero Section -->
-  <section class="hero" id="home"> ... </section>
-
-  <!-- ✅ Paste the Expense Form + Reports here -->
-  <section class="expense-form" id="add">
-    <!-- form code -->
-  </section>
-
-  <section class="reports" id="reports">
-    <!-- table code -->
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2026 Furqanudeen | Built with ❤️</p>
-  </footer>
-
-  <!-- JavaScript file -->
-  <script src="script.js"></script>
-</body>
-
-  <header>
-    <nav>
-      <h2 class="logo">Expense Tracker</h2>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Add Expense</a></li>
-        <li><a href="#">Reports</a></li>
-        <li><a href="#">About</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <!-- Expense Form Section -->
-<section class="expense-form" id="add">
-  <h2>Add New Expense</h2>
-  <form id="expenseForm">
-    <input type="text" id="expenseName" placeholder="Expense Name" required>
-    <input type="number" id="expenseAmount" placeholder="Amount (₹)" required>
-    <input type="date" id="expenseDate" required>
-    <button type="submit">Add Expense</button>
-  </form>
-</section>
-<!-- Reports Section -->
-<section class="reports" id="reports">
-  <h2>Expense Reports</h2>
-  <table id="expenseList">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Amount</th>
-        <th>Date</th>
-        <th>Action</th>
-      </tr>
-    </thead>
-    <tbody>
-      <!-- Expenses will appear here -->
-    </tbody>
-  </table>
-</section>
-    <section class="expense-form">
-  <h2>Add New Expense</h2>
-  <form id="expenseForm">
-    <input type="text" id="expenseName" placeholder="Expense Name" required>
-    <input type="number" id="expenseAmount" placeholder="Amount (₹)" required>
-    <input type="date" id="expenseDate" required>
-    <button type="submit">Add Expense</button>
-  </form>
-</section>
-<section class="expense-table">
-  <h2>Expense List</h2>
-  <table id="expenseList">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Amount</th>
-        <th>Date</th>
-      </tr>
-    </thead>
-    <tbody>
-      <!-- Expenses will appear here -->
-    </tbody>
-  </table>
-</section>
-    <section class="hero">
-      <h1>Track Your Expenses Easily</h1>
-      <p>Manage your budget with a clean, professional interface.</p>
-      <button>Get Started</button>
-    </section>
-  </main>
-  <footer>
-    <p>© 2026 Furqanudeen | Built with ❤️</p>
-  </footer>
+  <div class="container">
+    <h1>Expense Tracker</h1>
+    <form id="expense-form">
+      <input type="text" id="expense-name" placeholder="Expense name" required>
+      <input type="number" id="expense-amount" placeholder="Amount" required>
+      <button type="submit">Add Expense</button>
+    </form>
+    <ul id="expense-list"></ul>
+    <h2>Total: <span id="total">0</span></h2>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
