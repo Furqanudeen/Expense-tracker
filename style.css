@@ -114,3 +114,63 @@ footer {
   text-align: center;
   padding: 10px;
 }
+/* Expense Form */
+.expense-form {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.expense-form input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.expense-form button {
+  padding: 10px 20px;
+  background: #00796b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.expense-form button:hover {
+  background: #004d40;
+}
+
+/* Reports Table */
+.reports {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.reports table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.reports th, .reports td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.reports th {
+  background: #00796b;
+  color: white;
+}
+
+.action-btn {
+  background: #ff5722;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.action-btn:hover {
+  background: #e64a19;
+}
